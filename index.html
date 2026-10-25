@@ -1,0 +1,118 @@
+<!DOCTYPE html>  <html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>My Portfolio</title>  
+</head>  
+<body>  <div>  
+    <h1>Pranjal Verma's Portfolio</h1>  
+    <div>  
+        <a href="index.html">Home</a>  
+        <a href="#about">About</a>  
+        <a href="#contact">Contact</a>  
+    </div>  
+</div>  
+
+<div id="about">  
+    <h2>About Me</h2>  
+    <p>I am a student learning HTML and web development.</p>  
+    <img  
+        src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400"  
+        alt="Portrait photograph representing a student"  
+        width="200"  
+        height="200">  
+</div>  
+
+<div>  
+    <h2>My Learning Journey</h2>  
+    <p>I am learning to create accessible webpages.</p>  
+</div>  
+
+<div>  
+    <h2>Useful Resource</h2>  
+    <p>  
+        Learn HTML at  
+        <a href="https://developer.mozilla.org/">MDN Web Docs</a>.  
+    </p>  
+</div>  
+
+<div id="contact">  
+    <h2>Contact</h2>  
+    <p>Email: student@example.com</p>  
+</div>  
+
+<div>  
+    <p>My Portfolio - 2026</p>  
+</div>
+
+</body>  
+</html>  2. After: Semantic HTML Code
+   File name: index.html
+
+<!DOCTYPE html>  <html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Pranjal Verma's Portfolio</title>  
+</head>  
+<body>  <!-- Header section -->  
+<header>  
+    <h1>Pranjal Verma's Portfolio</h1>  
+
+    <!-- Navigation links -->  
+    <nav aria-label="Main navigation">  
+        <a href="index.html">Home</a>  
+        <a href="#about">About</a>  
+        <a href="#contact">Contact</a>  
+    </nav>  
+</header>  
+
+<!-- Main content -->  
+<main>  
+    <section id="about">  
+        <h2>About Me</h2>  
+        <p>  
+            I am a student learning HTML and web development.  
+            I enjoy learning new skills and creating webpages.  
+        </p>  
+
+        <img  
+            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400"  
+            alt="Portrait photograph representing a student"  
+            width="200"  
+            height="200">  
+    </section>  
+
+    <article>  
+        <h2>My Learning Journey</h2>  
+        <p>  
+            I am learning to create accessible and  
+            well-structured webpages using semantic HTML.  
+        </p>  
+    </article>  
+
+    <aside>  
+        <h2>Useful Resource</h2>  
+        <p>  
+            Learn more about HTML through  
+            <a  
+                href="https://developer.mozilla.org/"  
+                target="_blank"  
+                rel="noopener noreferrer">  
+                MDN Web Docs  
+            </a>.  
+        </p>  
+    </aside>  
+
+    <section id="contact">  
+        <h2>Contact</h2>  
+        <p>Email: student@example.com</p>  
+    </section>  
+</main>  
+
+<!-- Footer section -->  
+<footer>  
+    <p>&copy; 2026 Pranjal Verma - My Portfolio</p>  
+</footer>
+
+</body>  
+</html>  Output manually
